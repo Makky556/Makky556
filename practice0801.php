@@ -1,0 +1,19 @@
+<?php
+    $num1=33;
+    $num2=4;
+?>
+<html>
+	<head>
+		<meta http-equiv="Content-Type"content="text/html;charset=UTF-8">
+	</head>
+	<body>
+	<?php
+	   echo"{$num1}+{$num2}=".($num1+$num2)."<br>\n";
+	   echo"{$num1}-{$num2}=".($num1-$num2)."<br>\n";
+	   echo"{$num1}*{$num2}=".($num1*$num2)."<br>\n";
+	   echo"{$num1}/{$num2}=".($num1/$num2)."<br>\n";
+	   echo"{$num1}%{$num2}=".($num1%$num2)."<br>\n";
+	   echo"{$num1}.{$num2}=".($num1.$num2)."\n";
+	?>
+	</body>
+</html>
